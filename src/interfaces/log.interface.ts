@@ -1,11 +1,11 @@
 export enum LogLevel {
-  Debug = 'Debug',
-  Info = 'Info',
-  Alert = 'Alert',
-  Warn = 'Warn',
-  Error = 'Error',
-  Fatal = 'Fatal',
-  Unselected = 'Unselected',
+  Debug = 'debug',
+  Info = 'info',
+  Alert = 'alert',
+  Warn = 'warn',
+  Error = 'error',
+  Fatal = 'fatal',
+  Unselected = 'unselected',
 }
 
 export const logToInt = (level: LogLevel): number => {
